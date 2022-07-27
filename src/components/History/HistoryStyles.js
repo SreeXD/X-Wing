@@ -17,11 +17,11 @@ export const HistoryTitles = styled.div`
 export const HistoryTitle = styled.h1`
     text-align: center;
     font-weight: 400;
-    color: #202020;
     transition: color 500ms, background-color 500ms;
 
     &:nth-child(1) {
         font-size: 4rem;
+        color: #202020;
 
         @media (max-width: 800px) {
             font-size: 3rem;
@@ -50,11 +50,17 @@ export const HistoryTitle = styled.h1`
 
         @media (max-width: 350px) {
             font-size: 3rem;
-        
+        }
     }
 
     ${props => props.theme.dark && css`
-        color: #e0e0e0;
+        &:nth-child(1) {
+            color: #7f7f7f;
+        }
+
+        &:nth-child(2) {
+            color: #e0e0e0;
+        }
     `}
 `
 

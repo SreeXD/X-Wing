@@ -31,6 +31,10 @@ export const HistoryTitle = styled.h1`
             font-size: 2rem;
         }
 
+        @media (max-height: 500px) {
+            font-size: 2rem;
+        }
+
         @media (max-width: 350px) {
             font-size: 1.6rem;
         }
@@ -45,6 +49,10 @@ export const HistoryTitle = styled.h1`
         }
 
         @media (max-width: 500px) {
+            font-size: 4rem;
+        }
+
+        @media (max-height: 500px) {
             font-size: 4rem;
         }
 
@@ -81,6 +89,10 @@ export const HistoryPolyButton = styled(motion.a)`
     }
 
     @media (max-width: 500px) {
+        font-size: 0.65rem;
+    }
+
+    @media (max-height: 500px) {
         font-size: 0.65rem;
     }
 
@@ -125,6 +137,10 @@ export const HistoryListItemBulletSpan = styled(motion.span)`
         font-size: 0.6rem;   
     }
 
+    @media (max-height: 500px) {
+        font-size: 0.6rem;
+    }
+
     @media (max-width: 350px) {
         font-size: 0.5rem;
     }
@@ -155,6 +171,10 @@ export const HistoryListItemDescription = styled.p`
 
     @media (max-width: 500px) {
         font-size: 0.75rem;     
+    }
+
+    @media (max-height: 500px) {
+        font-size: 0.75rem;
     }
 
     @media (max-width: 350px) {
@@ -200,6 +220,12 @@ export const HistorySectionParagraph = styled.p`
         width: 85vw;  
     }
 
+    @media (max-height: 500px) {
+        font-size: 0.75rem;
+        line-height: 150%; 
+        width: 85vw;
+    }
+
     @media (max-width: 350px) {
         font-size: 0.7rem;
     }
@@ -228,6 +254,10 @@ export const HistorySectionTitle = styled.h1`
         font-size: 2rem;   
     }
 
+    @media (max-height: 500px) {
+        font-size: 2rem;   
+    }
+
     @media (max-width: 350px) {
         font-size: 1.6rem;
     }
@@ -247,6 +277,10 @@ export const HistorySectionNumber = styled.h1`
     }
 
     @media (max-width: 500px) {
+        font-size: 0.75rem;   
+    }
+
+    @media (max-height: 500px) {
         font-size: 0.75rem;   
     }
 

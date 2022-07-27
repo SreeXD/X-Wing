@@ -1,0 +1,31 @@
+{
+    "X_Wing_front": {
+        "name": "Nose Cone",
+        "description": "Contains the T-65's sensor systems that feed information directly to the targetting computer that could acquire upto 20 targets"
+    },
+
+    "X_Wing_body": {
+        "name": "Armored Cockpit",
+        "description": "Protected by transperisteel canopy designed to automatically polarize to protect the pilot from harmful light"
+    },
+
+    "X_Wing_thruster1": {
+        "name": "Thrust Engine (rear)",
+        "description": "Incom 4L4 Fusial thrust engines used to adjust the flight's trajectory"
+    },
+
+    "X_Wing_engine2": {
+        "name": "Thrust Engine (front)",
+        "description": "Incom 4L4 Fusial thrust engines providing the aircraft the thrust required for flight"
+    },
+
+    "X_Wing_wing001": {
+        "name": "S Foils",
+        "description": "Movable wings with provision for weaponry. The 2 pairs of S foils give the aircraft it's X-like appearance"
+    },
+
+    "X_Wing_gun004": {
+        "name": "Laser cannon",
+        "description": "KX9 laser cannons that can be fired singly, in alternative pairs or all at once"
+    }
+}

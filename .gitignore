@@ -1,0 +1,10 @@
+.vscode
+
+node_modules
+public/*.glb
+public/*.mp4
+public/*.mp3
+public/*.js
+public/*.txt
+public/*.wav
+public/*.png

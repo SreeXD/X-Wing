@@ -137,13 +137,12 @@ const History = (props) => {
 
         if (e.offset.y > 100 && !hide) {
             hide = true 
-            getButton.style.transform = 'translateX(150%)'
-
+            getButton.style.right = '-150%'
         }
 
         if (e.offset.y < 100 && hide) {
             hide = false
-            getButton.style.transform = 'translateX(0)'
+            getButton.style.right = '0'
         }
 
         for (let i = 0; i < historyTitles.length; ++i) {
@@ -196,6 +195,13 @@ const History = (props) => {
         }
 
         return () => {
+            if (hide) {
+                const getButton = document.querySelector('#get-button')
+                getButton.style.right = '0'
+            }
+
+            world.controls.moveTo(0, 0, 0, true)
+
             delete world.updateEvents['history']
         }
     }, [])

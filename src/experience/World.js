@@ -174,7 +174,6 @@ export default class World {
 
     setState(state) {
         if (this.state == 2) {
-            this.controls.moveTo(0, 0, 0, true)
             this.bg.unfade()
             this.xwing.spawn()
         }

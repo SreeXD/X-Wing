@@ -2,7 +2,7 @@
 
 A hypothetical 3D webpage of incom corporation introducing their newest product - the X Wing starfighter
 
-Music used in webpage - Immanuel by Tony Anderson
+Music used in webpage - Immanuel by Tony Anderson  
 Sound effects from [Mixkit](https://mixkit.co/)
 
 ## Video
